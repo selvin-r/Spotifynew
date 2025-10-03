@@ -15,9 +15,10 @@ const DisplayAlbum = () => {
     <>
         
       <Navbar/>
-      <div className='mt-10 flex gap-8 flex-col md:flex-row md: items-end'>
-        <img className='w-48 rounded' src={albumDatalocal.image} alt=''/>
-        <div className='flex flex-col'>
+      <div className='mt-10 flex gap-8 flex-col md:flex-row md: items-end '>
+        <img className='w-48 rounded animate-fadeIn'
+             src={albumDatalocal.image} alt=''/>
+        <div className='flex flex-col animate-fadeIn delay-150'>
           <p>Playlist</p>
           <h2 className='text-4xl font-bold mb-4 md:text-6xl'>
             {albumDatalocal.name}
@@ -39,13 +40,19 @@ const DisplayAlbum = () => {
      <hr/>
      {
       songsData.map((item,index)=>(
-        <div onClick={()=>playWithId(item.id)} key={index}className='grid grid-cols-3 sm:grid-cols-4 gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
+        <div onClick={()=>playWithId(item.id)} key={index}
+              className='grid grid-cols-3 sm:grid-cols-4
+         gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer
+           transform transition duration-300 hover:scale-105 animate-fadeIn '
+             style={{animationDelay: `${index * 100}ms`}}
+        >
+
           <p className='text-white'>
           <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
           <img className='inline w-10 mr-5' src={item.image} alt=''/>
             {item.name}
             </p>
-            <p className='text-[15px]'>{albumDatalocal.name}</p>
+            <p className='text-[15px]  mb-4 animate-fadeIn delay-150'>{albumDatalocal.name}</p>
               <p className='text-[15px]'>3 Days ago</p>
                 <p className='text-[15px] text-center'>{item.duration}</p>
         </div>

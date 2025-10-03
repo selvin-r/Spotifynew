@@ -200,7 +200,7 @@ export const albumsData = [
     name: "Purely Kadhal",
     image: purelykaadhal,
     desc: "All the mushy feels from top romantic hits",
-    bgColor: "#D10000",
+    bgColor: "#b65bb0",
   },
   {
     id: 5,

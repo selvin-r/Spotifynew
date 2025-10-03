@@ -35,7 +35,7 @@ const DisplayHome = () => {
                 desc={item.desc}
                 id={item.id}
                 image={item.image}
-                // file={item.file}
+                file={item.file}
             />
         ))}
 
