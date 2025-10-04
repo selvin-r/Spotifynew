@@ -98,7 +98,7 @@ import Aagaya from "./songs/Aagaya-Suriyanai.mp3";
 import Yedho from "./songs/Yedho-Ondru.mp3";
 import Kalyaanam from "./songs/Kalyaanam Thaan Kattikittu.mp3";
 import Pudichirukku from "./songs/Pudichirukku.mp3";
-import Ithuthaanaa from "./songs/idhuthaanaa.mp3";
+import Ithuthaanaa from "./songs/Idhuthaanaa.mp3";
 import Thirune from "./songs/Thirunelveli Alvada.mp3";
 import Uyirilae from "./songs/Uyirilae.mp3";
 import Uyerin from "./songs/Uyerin-Uyerin.mp3";
