@@ -11,6 +11,11 @@ export default {
                     '0%': { opacity: '0', transform: 'translateY(20px)' },
                     '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
+
+                'fade-in-right': {
+                    '0%': { opacity: '0', transform: 'translateX(20px)' },
+                    '100%': { opacity: '1', transform: 'translateX(0)' },
+                },
                 slideInLeft: {
                     '0%': { opacity: '0', transform: 'translateX(-30px)' },
                     '100%': { opacity: '1', transform: 'translateX(0)' },

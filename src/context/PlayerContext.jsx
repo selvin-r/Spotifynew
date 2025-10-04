@@ -120,6 +120,8 @@ const before = async (id) => {
         };
     }, [track]);
 
+
+
 // seekBar functionality
 
 const seekBarHandler = (e) => {

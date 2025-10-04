@@ -13,6 +13,7 @@ const Opening = () => {
                 loop
                 muted
             />
+
         </div>
     );
 };
