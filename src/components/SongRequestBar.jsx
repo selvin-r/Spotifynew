@@ -9,11 +9,14 @@ const SongRequestBar = () => {
         const email = "selvin.ug.20.ee@francisxavier.ac.in"; // 👉 replace with your email address
         const subject = "Song Request 🎵";
         const body = `Hi! I want to request this song: ${songName}`;
-        const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+            email
+        )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-        window.open(mailtoUrl, "_blank"); // opens user's default mail app
+        window.open(gmailUrl, "_blank"); // Opens Gmail in new tab
         setSongName("");
     };
+
 
     return (
         <div className="w-full bg-[#121212] flex items-center justify-between px-4 py-3 border-t border-gray-700">
