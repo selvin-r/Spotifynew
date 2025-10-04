@@ -71,6 +71,33 @@ import SuttamImg from "./img/song-thumb/SuttamVizhi.jpeg";
 import RanglolaImg from "./img/song-thumb/Ranglola.jpg";
 import TumImg from "./img/song-thumb/TumHiHo.jpeg";
 import KunImg from "./img/song-thumb/KunFayaKun.jpeg";
+import  AnbilImg from "./img/song-thumb/Vinnai.jpeg";
+import  HosaImg from "./img/song-thumb/Hosanna.jpg";
+import  HasiliImg from "./img/song-thumb/Hasili.jpeg";
+import YenoImg from "./img/song-thumb/Yeno.jpeg";
+import DamakkuImg from "./img/song-thumb/Damakku.jpeg";
+import VaarayoImg from "./img/song-thumb/Vaarayo.jpg";
+import PalaImg from "./img/song-thumb/Pala.jpg";
+import NenjeImg from "./img/song-thumb/Nenje.jpg";
+import HoneyImg from "./img/song-thumb/Honey.jpg";
+import VizhiImg from "./img/song-thumb/Vizhi.jpeg";
+import  OyaayiyeImg from "./img/song-thumb/Oyaalive.jpg";
+import OhSuperImg from "./img/song-thumb/Ohsuper.jpeg";
+import HappyImg from "./img/song-thumb/HappyNewYear.jpeg";
+import ThaenImg from "./img/song-thumb/ThaenThaen.jpg";
+import PalaanadhuImg from "./img/song-thumb/Palaanadhu.jpg";
+import UnnaiImg from "./img/song-thumb/UnnaiKaanadhu.jpeg";
+import  VaayaImg from "./img/song-thumb/VaayaVeera.jpg";
+import AnbaeImg from "./img/song-thumb/AnbaeAnbae.jpeg";
+import EnakkeImg from "./img/song-thumb/EnakkeEnakke.jpeg";
+import PoovukkulImg from "./img/song-thumb/Poovukkul.jpeg";
+import MaatikichuImg from "./img/song-thumb/Maatikichu.jpeg";
+import EnnaImg from "./img/song-thumb/EnnaNadan.webp";
+import SakkaraImg from "./img/song-thumb/Sakkara.jpg";
+import MachiImg from "./img/song-thumb/Machi.jpg";
+import MonicaImg from "./img/song-thumb/Monica.jpeg";
+import MalaayooryImg from "./img/song-thumb/Malaayooru.jpeg";
+
 
 
 
@@ -130,6 +157,34 @@ import Suttam from "./songs/Suttum-Vizhi.mp3";
 import Ranglola from "./songs/Rangola.mp3";
 import TumHi from "./songs/Tum-Hi-Ho-MassTamilan.io.mp3";
 import KunFaya from "./songs/128-Kun Faaya Kun - Rockstar 128 Kbps.mp3";
+import AnbilAvan from "./songs/Anbil-Avan.mp3";
+import Hosanna from "./songs/Hosanna.mp3";
+import Hasili from "./songs/Hasili-Fisiliye-MassTamilan.dev.mp3";
+import Yeno from "./songs/Yeno-Yeno-Panithuli-MassTamilan.dev.mp3";
+import Damakku from "./songs/Damakku-Damakku-MassTamilan.dev.mp3";
+import Vaarayo from "./songs/Vaarayo-Vaarayo-MassTamilan.dev.mp3";
+import Pala from "./songs/Pala Palakura.mp3";
+import Nenje from "./songs/Nenje Nenje.mp3";
+import Honey from "./songs/Honey Honey.mp3";
+import Vizhi from "./songs/Vizhi Moodi Yosithaal.mp3";
+import Oyaayiye from "./songs/Oyaayiye Yaayiye.mp3";
+import OhSuper from "./songs/Hey Raja (Oh Supernova).mp3";
+import Happy from "./songs/Happy-New-Year-Rap-MassTamilan.fm.mp3";
+import Thaen from "./songs/Thaen-Thaen-Thaen-MassTamilan.fm.mp3";
+import Palaanadhu from "./songs/Palaanadhu-Palaanadhu-MassTamilan.fm.mp3";
+import Unnai from "./songs/Unnai-Kaanadhu-Naan.mp3";
+import Vaaya from "./songs/Vaaya-En-Veera.mp3";
+import Anbae from "./songs/Anbe-Anbe.mp3";
+import  Enakke from "./songs/Ennake-Ennaka.mp3";
+import Poovukkul from "./songs/Poovukkul.mp3";
+import Maatikichu from "./songs/Maattikkichey-Maattikkichey-MassTamilan.com.mp3";
+import Enna from "./songs/Enna-Nadanthalum-MassTamilan.com.mp3";
+import Sakkara from "./songs/Adiye-Sakkarakatti-MassTamilan.com.mp3";
+import Machi from "./songs/Machi-Engalukku-Ellam-MassTamilan.com.mp3";
+import Monica from "./songs/Monica.mp3";
+import Malaayoory from "./songs/Malaiyur-MassTamilan.com.mp3";
+
+
 
 
 import minnale from "./songs/Vaseegara.mp3";
@@ -628,7 +683,222 @@ export const songsData = [
         duration: "7.50",
 
     },
+    {
+        id: 45,
+        name: "Anbil Avan",
+        image: AnbilImg,
+        file: AnbilAvan,
+        desc: " Anbil Avan A,R Rahman Vibes",
+        duration: "4.11",
+    },
+    {
+        id: 46,
+        name: "Hosanna",
+        image: HosaImg,
+        file: Hosanna,
+        desc: " Hosanna  A.R Rahman Vibes",
+        duration: "5.30",
+    },
+    {
+        id: 47,
+        name: "Hasili Fisiliy",
+        image: HasiliImg,
+        file: Hasili,
+        desc: "Hasili Fisily  Harris Vibes",
+        duration: "5.18",
+    },
+    {
+        id: 48,
+        name: "Yeno Yeno Panithuli",
+        image: YenoImg,
+        file: Yeno,
+        desc: " Yeno Yeno Panithuli Harris Vibes",
+        duration: "5.12",
+    },
+    {
+        id: 49,
+        name: "Damakku Damakku",
+        image: DamakkuImg,
+        file: Damakku,
+        desc: " Damaku Damakku Harris Vibes",
+        duration: "4.55",
 
+    },
+    {
+        id: 50,
+        name: "Vaarayo Vaarayo",
+        image: VaarayoImg,
+        file: Vaarayo,
+        desc: " Vaarayo Vaarayo Harris Vibes",
+        duration: "5.16",
+    },
+    {
+        id: 51,
+        name: "Pala Pala",
+        image: PalaImg,
+        file: Pala,
+        desc: " Pala pala Harris Vibes",
+        duration: "5.25",
+    },
+    {
+        id: 52,
+        name: "Nenje Nenje",
+        image: NenjeImg,
+        file: Nenje,
+        desc: " Nenje Nenje Harris Vibes",
+        duration: "5.44",
+
+    },
+    {
+        id: 53,
+        name: "Honey Honey",
+        image: HoneyImg,
+        file: Honey,
+        desc: " Honey Honey Harris Vibes",
+        duration: "5.19",
+    },
+
+    {
+        id: 54,
+        name: "Vizhi Moodi",
+        image: VizhiImg,
+        file: Vizhi,
+        desc: " Vizhi Moodi Harris Vibes",
+        duration: "5.32",
+
+
+    },
+    {
+        id: 55,
+        name: "Oyaayiye Yaayiye",
+        image: OyaayiyeImg,
+        file: Oyaayiye,
+        desc: " Oaayiyey Yaayiye Harris Vibes",
+        duration: "5.35",
+
+    },
+    {
+        id: 56,
+        name : "Oh Super Nova",
+        image: OhSuperImg,
+        file: OhSuper,
+        desc: " Oh Super Nova Harris Vibes",
+        duration: "2.29",
+    },
+    {
+        id: 57,
+        name : "Happy New Year",
+        image: HappyImg,
+        file: Happy,
+        desc: " Happy New Year Na.MuthuKumar",
+        duration: "4.03",
+    },
+    {
+        id: 58,
+        name : "Thaen Thaen",
+        image: ThaenImg,
+        file: Thaen,
+        desc: " Thaen Thaen Na.MuthuKumar",
+        duration: "3.58",
+
+    },
+    {
+        id: 59,
+        name : "Palaanadhu",
+        image: PalaanadhuImg,
+        file: Palaanadhu,
+        desc: " Palaanadhuu Na.MuthuKumar",
+        duration: "4.11",
+    },
+    {
+        id: 60,
+        name: "Unnai Kaanadhu",
+        image: UnnaiImg,
+        file: Unnai,
+        desc: " Unnai Kaanadhu Naan Kamal Haasan",
+        duration: "5.37",
+    },
+    {
+        id: 61,
+        name: "Vaaya Veera",
+        image: VaayaImg,
+        file: Vaaya,
+        desc: " Vaaya Veera Leon James",
+        duration: "4.37",
+    },
+    {
+        id: 62,
+        name: "Anbae Anbae",
+        image: AnbaeImg,
+        file: Anbae,
+        desc: " Anbae Anbae",
+        duration: "5.32",
+    },
+    {
+        id: 63,
+        name: "Enakke Enakke",
+        image: EnakkeImg,
+        file: Enakke,
+        desc: " Enakke Enakke",
+        duration: "7.09",
+
+    },
+    {
+        id: 64,
+        name: "Poovukkul",
+        image: PoovukkulImg,
+        file: Poovukkul,
+        desc: " Poovukkul",
+        duration: "6.53",
+    },
+    {
+        id: 65,
+        name: "Maatikichu",
+        image: MaatikichuImg,
+        file: Maatikichu,
+        desc: " Maatikichu HipHop Tamilzha",
+        duration: "3.17",
+    },
+    {
+        id: 66,
+        name: "Enna Nadan Thalum",
+        image: EnnaImg,
+        file: Enna,
+        desc: " Enna Nadan Thalum HipHop Tamilzha",
+        duration: "4.05",
+    },
+    {
+        id: 67,
+        name: "Sakkara Katti",
+        image: SakkaraImg,
+        file: Sakkara,
+        desc: " Sakkara Katti HipHop Tamilzha",
+        duration: "3,09",
+    },
+    {
+        id: 68,
+        name: "Machi Engalukku ellam",
+        image: MachiImg,
+        file: Machi,
+        desc: " Machi Engalukku ellam HipHop Tamilzha",
+        duration: "2.29",
+    },
+    {
+        id: 69,
+        name: "Monica",
+        image: MonicaImg,
+        file: Monica,
+        desc: " Monica Vibes Anirudh",
+        duration: "3.37",
+    },
+    {
+        id: 70,
+        name: "Malaayoory",
+        image: MalaayooryImg,
+        file: Malaayoory,
+        desc: " Malaayoory Na.MuthuKumar",
+        duration: "4.11",
+    },
 
 
 

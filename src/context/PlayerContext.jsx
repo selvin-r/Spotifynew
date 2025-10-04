@@ -79,12 +79,20 @@ const before = async (id) => {
     const after = async () => {
         if (track.id < songsData.length - 1) {
             await setTrack(songsData[track.id + 1]);
-            setPlayStatus(true);
+        }else {
+            // If it's the last song, go back to the first one
+
+            await setTrack(songsData[0]);
+        }
+
+        setPlayStatus(true);
+
             // Play after the track is updated
+
             setTimeout(() => {
                 audioRef.current.play();
             }, 100); // slight delay to ensure audioRef updates
-        }
+
     };
 
 // after run the songe in next
