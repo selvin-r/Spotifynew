@@ -70,6 +70,7 @@ import OurMaalaiImg from "./img/song-thumb/OurMaalai.jpg";
 import SuttamImg from "./img/song-thumb/SuttamVizhi.jpeg";
 import RanglolaImg from "./img/song-thumb/Ranglola.jpg";
 import TumImg from "./img/song-thumb/TumHiHo.jpeg";
+import KunImg from "./img/song-thumb/KunFayaKun.jpeg";
 
 
 
@@ -128,7 +129,7 @@ import OurMaalai from "./songs/Oru-Maalai.mp3";
 import Suttam from "./songs/Suttum-Vizhi.mp3";
 import Ranglola from "./songs/Rangola.mp3";
 import TumHi from "./songs/Tum-Hi-Ho-MassTamilan.io.mp3";
-
+import KunFaya from "./songs/128-Kun Faaya Kun - Rockstar 128 Kbps.mp3";
 
 
 import minnale from "./songs/Vaseegara.mp3";
@@ -618,7 +619,14 @@ export const songsData = [
         duration: "4.22",
     },
 
+    {
+        id:44,
+        name: "Kun Faya Kun",
+        image: KunImg,
+        file: KunFaya,
+        desc: " Kun Faya Kun A.R Rahman Vibes",
 
+    },
 
 
 
