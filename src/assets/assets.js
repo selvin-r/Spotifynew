@@ -625,6 +625,7 @@ export const songsData = [
         image: KunImg,
         file: KunFaya,
         desc: " Kun Faya Kun A.R Rahman Vibes",
+        duration: "7.50",
 
     },
 
