@@ -1,6 +1,7 @@
 import React from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import SongRequestBar from "./SongRequestBar";
 
 const Sidebar = () => {
 
@@ -75,7 +76,12 @@ pl-4 transition duration-300  hover:text-green-400 animate-fadeIn
   <button className='px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4
   hover:bg-gray-200 transition'>Browes Podcasts</button>
 
+
 </div>
+       {/*SongRequestBar()*/}
+       <div className={'m-1 gap-2 w-auto justify-center mt-20'}>
+           < SongRequestBar />
+       </div>
 </div>
 </div>
   )

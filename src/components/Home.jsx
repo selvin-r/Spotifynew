@@ -18,7 +18,6 @@ const { audioRef,track } = useContext(PlayerContext);
     <div className='flex flex-1 h-[90%] relative'>
       <Sidebar/>
       <Display/>
-
     </div>
 
     <Player/>
