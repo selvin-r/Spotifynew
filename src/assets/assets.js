@@ -97,6 +97,18 @@ import SakkaraImg from "./img/song-thumb/Sakkara.jpg";
 import MachiImg from "./img/song-thumb/Machi.jpg";
 import MonicaImg from "./img/song-thumb/Monica.jpeg";
 import MalaayooryImg from "./img/song-thumb/Malaayooru.jpeg";
+import KanmaniImg from "./img/song-thumb/Kanmani.webp";
+import MuabeImg from "./img/song-thumb/MuabeVaa.jpeg";
+import  AleImg from "./img/song-thumb/AleAle.jpeg";
+import InnumImg from "./img/song-thumb/Innum.jpeg";
+import NetruImg from "./img/song-thumb/Netru.jpeg";
+import SonapaImg from "./img/song-thumb/Sonapareeya.jpeg";
+import KadalImg from "./img/song-thumb/Kadal.jpeg";
+import EllaImg from "./img/song-thumb/Ella.jpeg";
+import PonmagalImg from "./img/song-thumb/Ponmagal.jpg";
+import ValayaImg from "./img/song-thumb/ValavaPatti.jpeg";
+import MaduraikkuImg from  "./img/song-thumb/Madurai.jpeg";
+
 
 
 
@@ -183,6 +195,17 @@ import Sakkara from "./songs/Adiye-Sakkarakatti-MassTamilan.com.mp3";
 import Machi from "./songs/Machi-Engalukku-Ellam-MassTamilan.com.mp3";
 import Monica from "./songs/Monica.mp3";
 import Malaayoory from "./songs/Malaiyur-MassTamilan.com.mp3";
+import Kanmani from "./songs/Kanmani-Anbodu.mp3";
+import Muabe from "./songs/Munbe Vaa.mp3";
+import Ale from "./songs/Ale-Ale.mp3";
+import Innum from "./songs/Innum-Konjam-Neram.mp3";
+import Netru from "./songs/Netru-Aval-Irundhal.mp3";
+import Sonapa from "./songs/Sonapareeya.mp3";
+import Kadal from "./songs/Kadal-Raasa-Naan.mp3";
+import Ella from "./songs/Ella-Pugazhum-MassTamilan.fm.mp3";
+import Ponmagal from "./songs/Ponmagal-Vandaal-MassTamilan.fm.mp3";
+import Valaya from "./songs/Valayapatti-MassTamilan.fm.mp3";
+import Maduraikku from "./songs/Maduraikku-MassTamilan.fm.mp3";
 
 
 
@@ -898,6 +921,97 @@ export const songsData = [
         file: Malaayoory,
         desc: " Malaayoory Na.MuthuKumar",
         duration: "4.11",
+    },
+    {
+        id: 71,
+        name: "Kanmani anbodu",
+        image : KanmaniImg,
+        file: Kanmani,
+        desc: " Kanmani Anbodu Kamal Haasan ",
+        duration: "5.27",
+
+    },
+    {
+        id: 72,
+        name: "Muabe Vaa",
+        image: MuabeImg,
+        file: Muabe,
+        desc: " Muabe Vaa",
+        duration: "5.57",
+    },
+    {
+        id: 73,
+        name: "Ale Ale",
+        image: AleImg,
+        file: Ale,
+        desc: " Ale Ale Boys",
+        duration: "6.26",
+
+    },
+    {
+        id: 74,
+        name: "Innum Konjam Neram",
+        image: InnumImg,
+        file: Innum,
+        desc: " Dhanush  Na  Innum Konja Neram",
+        duration: "5.13",
+    },
+    {
+        id: 75,
+        name: "Netru Aval Irundhaal",
+        image: NetruImg,
+        file: Netru,
+        desc: " Dhanush Na  Netru Aval Irundhaal",
+        duration: "4.58",
+
+    },
+    {
+        id: 76,
+        name: "Sonapareeya",
+        image: SonapaImg,
+        file: Sonapa,
+        desc: " Dhanush  Na Sonapareeya",
+        duration: "4.09",
+    },
+    {
+        id: 77,
+        name : "Kadal Raasa Naan",
+        image: KadalImg,
+        file: Kadal,
+        desc: "Dhanush Na Kadal Raasa Naan",
+        duration: "4.13",
+    },
+    {
+        id: 78,
+        name: "Ella Pugazhum",
+        image: EllaImg,
+        file : Ella,
+        desc: " Vijay Na Ella Pugazhum ",
+        duration: "5.39",
+    },
+    {
+        id: 79,
+        name: "Ponmagal Vandaal",
+        image: PonmagalImg,
+        file: Ponmagal,
+        desc: " Vijay Na Ponmagal Vandaal",
+        duration: "3.05",
+    },
+    {
+        id: 80,
+        name: "Valaya Patti",
+        image: ValayaImg,
+        file: Valaya,
+        desc: "  Vijay Na Valaya Patti",
+        duration: "5.44",
+    },
+    {
+        id: 81,
+        name: "Maduraikku Pogathadee",
+        image: MaduraikkuImg,
+        file: Maduraikku,
+        desc: " Vijay Na  Maduraikku Pogathadee",
+        duration: "5.23",
     },
 
 

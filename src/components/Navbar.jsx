@@ -8,8 +8,10 @@ const Navbar = () => {
    <>
     <div className='w-full flex justify-between items-center font-semibold'>
         <div className='flex items-center gap-2'>
-        <img onClick={()=>nav(-1)}className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_left} alt=''/>
-      <img onClick={()=>nav(1)} className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_right} alt=''/>
+        <img onClick={()=>nav(-1)}className='w-8 bg-black p-2 rounded-2xl cursor-pointer'
+             src={assets.arrow_left} alt=''/>
+      <img onClick={()=>nav(1)} className='w-8 bg-black p-2 rounded-2xl cursor-pointer'
+           src={assets.arrow_right} alt=''/>
       </div>
   <div className='flex items-center gap-4'>
     <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>Explore Premium</p>
@@ -26,9 +28,27 @@ const Navbar = () => {
  </div>
   <div className='flex items-center gap-4 mt-4'>
    <p className='bg-white text-black px-4 py-1 rounded-2xl cursor-pointer '>ALL</p>
-    <p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Music</p>
-    <p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Podcasts</p>
-</div>
+    {/*<p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Music</p>*/}
+      <a
+          href="https://www.youtube.com/@RajendranDandapani/featured"  // playlist link
+          // target="_blank"  // opens in new tab
+          rel="noopener noreferrer"
+      >
+          <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-gray-800 transition">
+              Podcasts
+          </p>
+      </a>
+
+      <a href="http://radio.garden"
+          target="_blank"
+          rel="noopener noreferrer"
+>
+          <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-gray-800 transition">
+              World FM
+          </p>
+      </a>
+
+  </div>
     
    </>
   )
