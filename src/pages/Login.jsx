@@ -38,16 +38,20 @@ const Login = () => {
 
             {/* Social / Alternative login buttons */}
             <div className="flex flex-col w-full max-w-md gap-3">
-                <button className="flex items-center justify-center gap-2 border border-gray-600 rounded-full py-2 hover:bg-gray-800">
+                <button className="flex items-center justify-center gap-2 border
+                 border-gray-600 rounded-full py-2 hover:bg-gray-800">
                     <span>📱</span> Continue with phone number
                 </button>
-                <button className="flex items-center justify-center gap-2 border border-gray-600 rounded-full py-2 hover:bg-gray-800">
+                <button className="flex items-center justify-center gap-2 border
+                 border-gray-600 rounded-full py-2 hover:bg-gray-800">
                     <span>G</span> Continue with Google
                 </button>
-                <button className="flex items-center justify-center gap-2 border border-gray-600 rounded-full py-2 hover:bg-gray-800">
+                <button className="flex items-center justify-center gap-2 border
+                 border-gray-600 rounded-full py-2 hover:bg-gray-800">
                     <span>f</span> Continue with Facebook
                 </button>
-                <button className="flex items-center justify-center gap-2 border border-gray-600 rounded-full py-2 hover:bg-gray-800">
+                <button className="flex items-center justify-center gap-2 border
+                border-gray-600 rounded-full py-2 hover:bg-gray-800">
                     <span></span> Continue with Apple
                 </button>
             </div>

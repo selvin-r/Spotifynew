@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { assets } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import Login from "../pages/Login.jsx";
 
 const Navbar = () => {
-  const nav= useNavigate()
+  const nav= useNavigate();
+    const [showLogin, setShowLogin] = useState(false);
   return (
    <>
     <div className='w-full flex justify-between items-center font-semibold'>
@@ -16,8 +18,10 @@ const Navbar = () => {
   <div className='flex items-center gap-4'>
     <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>Explore Premium</p>
     <p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Install App</p>
+
+      {/* ✅ Change this line: use setShowLogin instead of nav('/Login') */}
       <button
-          onClick={() => nav('/login')}
+          onClick={() => setShowLogin(true)}
           className='bg-white py-1 px-3 rounded-2xl text-black text-[15px] cursor-pointer'
       >
           Login
@@ -49,6 +53,22 @@ const Navbar = () => {
       </a>
 
   </div>
+
+       {/* ✅ Show login component conditionally */}
+       {showLogin && (
+           <div className='fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50'>
+               <div className='relative w-full max-w-md'>
+                   {/* Close Button */}
+                   <button
+                       onClick={() => setShowLogin(false)}
+                       className='absolute top-2 right-2 text-white text-2xl'
+                   >
+                       ✕
+                   </button>
+                   <Login />
+               </div>
+           </div>
+       )}
     
    </>
   )
