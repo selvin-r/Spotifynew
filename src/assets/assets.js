@@ -112,6 +112,7 @@ import EllaImg from "./img/song-thumb/Ella.jpeg";
 import PonmagalImg from "./img/song-thumb/Ponmagal.jpg";
 import ValayaImg from "./img/song-thumb/ValavaPatti.jpeg";
 import MaduraikkuImg from  "./img/song-thumb/Madurai.jpeg";
+import GopalImg from "./img/song-thumb/Gopal.jpg";
 
 
 
@@ -137,6 +138,7 @@ import Harris from "./img/Harris.jpg";
 
 // song
 import aaruyire from "./songs/Aaruyire.mp3";
+import Gopal from "./songs/Riva Riva Song Matal Song(DjJpSwami.Com).mp3";
 import Mudhal from "./songs/Mudhal-Kanave.mp3";
 import Aagaya from "./songs/Aagaya-Suriyanai.mp3";
 import Yedho from "./songs/Yedho-Ondru.mp3";
@@ -1022,6 +1024,15 @@ export const songsData = [
         duration: "5.23",
     },
 
+    {
+        id: 82,
+        name: "Gopal Vibes",
+        image: GopalImg,
+        file: Gopal,
+        desc: " Gopal Vibes",
+        duration: "3.50",
+
+    },
 
 
 
@@ -1035,5 +1046,20 @@ export const songsData = [
 
 
 
+
+
+];
+
+export const Podcast = [
+    {
+        title: "Dr Velumani on Health Tests, Money & Work-Life",
+        host: "Gut Feeling with Dr. Pal",
+        date: "Oct 4",
+        duration: "56 min 21 sec",
+        description: "In this inspiring conversation with Dr. Velmani, " +
+            "we explore the meaning of work-life balance, health, and success.",
+        image: "https://via.placeholder.com/400x200?text=Dr+Velumani",
+        color: "#b91c1c" // red background
+    },
 
 ];

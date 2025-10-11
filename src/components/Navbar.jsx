@@ -2,10 +2,15 @@ import React, {useState} from 'react'
 import { assets } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 import Login from "../pages/Login.jsx";
+// import Podcasts from "../pages/Podcasts.jsx";
+
 
 const Navbar = () => {
   const nav= useNavigate();
     const [showLogin, setShowLogin] = useState(false);
+
+    // const [showPadcasts, setShowPadcasts] = useState(false);
+
   return (
    <>
     <div className='w-full flex justify-between items-center font-semibold'>
@@ -33,15 +38,35 @@ const Navbar = () => {
   <div className='flex items-center gap-4 mt-4'>
    <p className='bg-white text-black px-4 py-1 rounded-2xl cursor-pointer '>ALL</p>
     {/*<p className='bg-black px-4 py-1 rounded-2xl cursor-pointer'>Music</p>*/}
+
+
       <a
           href="https://www.youtube.com/@RajendranDandapani/featured"  // playlist link
-          // target="_blank"  // opens in new tab
+          target="_blank"  // opens in new tab
           rel="noopener noreferrer"
       >
-          <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-gray-800 transition">
-              Podcasts
-          </p>
+
+
+            <div>
+
+                <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-gray-800 transition">
+                    Podcasts
+                   {/*<Podcasts/>*/}
+                </p>
+            </div>
+
+
+
       </a>
+
+
+      {/*<button onClick={()=>setShowPadcasts(true)}*/}
+
+      {/*        className="bg-black px-4 py-1 rounded-2xl cursor-pointer hover:bg-gray-800 transition"*/}
+      {/*>*/}
+
+      {/*    Podcasts*/}
+      {/*</button>*/}
 
       <a href="http://radio.garden"
           target="_blank"
@@ -54,7 +79,7 @@ const Navbar = () => {
 
   </div>
 
-       {/* ✅ Show login component conditionally */}
+       {/*  Show login component conditionally */}
        {showLogin && (
            <div className='fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50'>
                <div className='relative w-full max-w-md'>
@@ -69,6 +94,29 @@ const Navbar = () => {
                </div>
            </div>
        )}
+
+
+       {/*/!*show Podcasts component consitionally*!/*/}
+
+       {/*{showPadcasts && (*/}
+
+       {/*    <div className='fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50'>*/}
+
+       {/*        <div className='relative w-full max-w-md'>*/}
+       {/*            /!* Close Button *!/*/}
+       {/*            <button*/}
+       {/*                onClick={() => showPadcasts(false)}*/}
+       {/*                className='absolute top-2 right-2 text-white text-2xl'*/}
+       {/*            >*/}
+       {/*                ✕*/}
+       {/*            </button>*/}
+
+       {/*        </div>*/}
+
+       {/*    </div>*/}
+
+       {/*)*/}
+       {/*}*/}
     
    </>
   )

@@ -13,7 +13,7 @@ function App() {
       setSplashVisible(false);
     }, 5000.6); // Show splash for 4 seconds
 
-    return () => clearTimeout(timer); // Cleanup the timer on unmount
+    return () => clearTimeout(timer); // Cleanup timer
 
   },[])
 
